@@ -8,6 +8,7 @@
         LOL
         <?php
         // put your code here
+        echo"PHP";
         ?>
     </body>
 </html>
