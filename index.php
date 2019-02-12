@@ -23,7 +23,8 @@
                 //var_dump($tomb);
             }
         // put your code here
-            sorsolas();
+            $sorsolt=sorsolas();
+            var_dump($sorsolt);
             echo"PHP asd";
         ?>
     </body>
