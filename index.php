@@ -7,20 +7,24 @@
     <body>
         LOL
         <?php
-        // put your code here
-            //lottohuzas
-            $kihuzottak=0;
-            while($kihuzottak<5)
+            function sorsolas()
             {
-                $sorsoltszam=rand(1,90);
-                if(!isset($tomb[$sorsoltszam]))
+                $kihuzottak=0;
+                while($kihuzottak<5)
                 {
-                $tomb[$sorsoltszam]=1;
-                $kihuzottak++;
+                    $sorsoltszam=rand(1,90);
+                    if(!isset($tomb[$sorsoltszam]))
+                    {
+                    $tomb[$sorsoltszam]=1;
+                    $kihuzottak++;
+                    }
                 }
+                return $tomb;
+                //var_dump($tomb);
             }
-            var_dump($tomb);
-        echo"PHP asd";
+        // put your code here
+            sorsolas();
+            echo"PHP asd";
         ?>
     </body>
 </html>
