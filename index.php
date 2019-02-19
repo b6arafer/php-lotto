@@ -11,7 +11,7 @@
 			$sorsolt=sorsolas();
 			var_dump($sorsolt);
 			// lottóhúzás
-                        echo "Ez voltak a szám tömb";
+                        echo "Ez volt a szám tömb";
             echo "Itt már a php script fut";
         // put your code here
         ?>
