@@ -12,6 +12,10 @@
             var_dump($sorsolt);
             lottoszelveny($sorsolt);
             
+            
+            include("lottosorsolas.php");
+            $friss=new lottosorsolas(5);
+            $friss->lottoszelveny($sorsolt);
         ?>
     </body>
 </html>
